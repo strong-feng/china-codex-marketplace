@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "amap-maps": {
       "type": "stdio",
@@ -6,10 +7,7 @@
       "args": [
         "-y",
         "@amap/amap-maps-mcp-server"
-      ],
-      "env": {
-        "AMAP_MAPS_API_KEY": "${AMAP_MAPS_API_KEY}"
-      }
+      ]
     }
   }
 }
