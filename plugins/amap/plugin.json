@@ -1,1 +1,6 @@
-
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "amap",
+  "version": "1.0.0",
+  "description": "高德地图 MCP 集成"
+}
