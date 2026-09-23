@@ -1,4 +1,18 @@
 {
   "name": "china-codex-marketplace",
-  "plugins": []
+  "interface": {
+    "displayName": "China Codex Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "amap",
+      "source": {
+        "source": "local",
+        "path": "./plugins/amap"
+      },
+      "interface": {
+        "displayName": "高德地图 MCP"
+      }
+    }
+  ]
 }
